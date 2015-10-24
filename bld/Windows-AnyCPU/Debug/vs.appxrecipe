@@ -9,7 +9,7 @@
     <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>io.cordova.myapp2b0406</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\build\windows\bld\</IntermediateOutputPath>
     <RegisteredManifestChecksum>64849D5BE3F47ACAED1E5E4F053D9FC7BBE0134F53B1BEAF0F6A60AB575ADC49</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>io.cordova.myapp2b0406_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>io.cordova.myapp2b0406_h35559jr9hy9m!io.cordova.myapp2b0406</RegisteredUserModeAppID>
@@ -19,163 +19,163 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:24.873</Modified>
+      <Modified>2015-10-24T16:30:56.542</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:23.113</Modified>
+      <Modified>2015-10-24T16:30:54.893</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:23.100</Modified>
+      <Modified>2015-10-24T16:30:54.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square30x30Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:23.103</Modified>
+      <Modified>2015-10-24T16:30:54.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:23.104</Modified>
+      <Modified>2015-10-24T16:30:54.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
       <Modified>2015-10-24T02:14:21.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square70x70Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:23.106</Modified>
+      <Modified>2015-10-24T16:30:54.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square71x71Logo.scale-100.png">
       <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
       <Modified>2015-10-24T02:14:21.740</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:23.108</Modified>
+      <Modified>2015-10-24T16:30:54.888</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-24T02:14:23.111</Modified>
+      <Modified>2015-10-24T16:30:54.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\cordova.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
-      <Modified>2015-10-24T02:14:22.905</Modified>
+      <Modified>2015-10-24T16:30:54.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\cordova_plugins.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.484</Modified>
+      <Modified>2015-10-24T16:30:54.919</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular-animate.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular-animate.js">
       <PackagePath>www\scripts\angular\angular-animate.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.169</Modified>
+      <Modified>2015-10-24T16:30:54.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular-route.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular-route.js">
       <PackagePath>www\scripts\angular\angular-route.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.175</Modified>
+      <Modified>2015-10-24T16:30:54.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular-sanitize.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular-sanitize.js">
       <PackagePath>www\scripts\angular\angular-sanitize.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.182</Modified>
+      <Modified>2015-10-24T16:30:54.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular.js">
       <PackagePath>www\scripts\angular\angular.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.233</Modified>
+      <Modified>2015-10-24T16:30:55.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular.min.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular.min.js">
       <PackagePath>www\scripts\angular\angular.min.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.265</Modified>
+      <Modified>2015-10-24T16:30:55.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\ui-bootstrap-tpls-0.13.4.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\ui-bootstrap-tpls-0.13.4.js">
       <PackagePath>www\scripts\angular\ui-bootstrap-tpls-0.13.4.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.291</Modified>
+      <Modified>2015-10-24T16:30:55.102</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\appBundle.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\appBundle.js">
       <PackagePath>www\scripts\appBundle.js</PackagePath>
-      <Modified>2015-10-24T02:14:23.296</Modified>
+      <Modified>2015-10-24T16:30:55.102</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\platformOverrides.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
-      <Modified>2015-10-24T02:14:22.886</Modified>
+      <Modified>2015-10-24T16:30:54.639</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\winstore-jscompat.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\winstore-jscompat.js">
       <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
-      <Modified>2015-10-24T02:14:22.892</Modified>
+      <Modified>2015-10-24T16:30:54.655</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\WinJS\js\base.js">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
-      <Modified>2015-10-24T02:14:22.960</Modified>
+      <Modified>2015-10-24T16:30:54.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css">
       <PackagePath>www\css\bootstrap\bootstrap-theme.css</PackagePath>
-      <Modified>2015-10-24T02:14:23.141</Modified>
+      <Modified>2015-10-24T16:30:54.923</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.min.css">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.min.css">
       <PackagePath>www\css\bootstrap\bootstrap-theme.min.css</PackagePath>
-      <Modified>2015-10-24T02:14:23.146</Modified>
+      <Modified>2015-10-24T16:30:54.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css">
       <PackagePath>www\css\bootstrap\bootstrap.css</PackagePath>
-      <Modified>2015-10-24T02:14:23.150</Modified>
+      <Modified>2015-10-24T16:30:54.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.min.css">
       <PackagePath>www\css\bootstrap\bootstrap.min.css</PackagePath>
-      <Modified>2015-10-24T02:14:23.155</Modified>
+      <Modified>2015-10-24T16:30:54.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\ionicons.min.css">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\ionicons.min.css">
       <PackagePath>www\css\bootstrap\ionicons.min.css</PackagePath>
-      <Modified>2015-10-24T02:14:23.159</Modified>
+      <Modified>2015-10-24T16:30:54.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\index.css">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2015-10-24T02:14:22.763</Modified>
+      <Modified>2015-10-24T16:30:54.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css.map">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css.map">
       <PackagePath>www\css\bootstrap\bootstrap-theme.css.map</PackagePath>
-      <Modified>2015-10-24T02:14:22.741</Modified>
+      <Modified>2015-10-24T16:30:54.485</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css.map">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css.map">
       <PackagePath>www\css\bootstrap\bootstrap.css.map</PackagePath>
-      <Modified>2015-10-24T02:14:22.753</Modified>
+      <Modified>2015-10-24T16:30:54.501</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\appBundle.js.map">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\appBundle.js.map">
       <PackagePath>www\scripts\appBundle.js.map</PackagePath>
-      <Modified>2015-10-24T02:14:22.876</Modified>
+      <Modified>2015-10-24T16:30:54.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\index.html">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2015-10-24T02:14:22.765</Modified>
+      <Modified>2015-10-24T16:30:54.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\views\home.html">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\home.html">
       <PackagePath>www\views\home.html</PackagePath>
-      <Modified>2015-10-24T02:14:23.302</Modified>
+      <Modified>2015-10-24T16:30:55.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\views\segunda.html">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\segunda.html">
       <PackagePath>www\views\segunda.html</PackagePath>
-      <Modified>2015-10-24T02:14:23.305</Modified>
+      <Modified>2015-10-24T16:30:55.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\nombre.json">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\nombre.json">
       <PackagePath>www\scripts\nombre.json</PackagePath>
-      <Modified>2015-10-24T02:14:23.299</Modified>
+      <Modified>2015-10-24T16:30:55.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\config.xml">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
-      <Modified>2015-10-24T02:14:24.498</Modified>
+      <Modified>2015-10-24T16:30:56.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\build\windows\debug\anycpu\resources.pri">
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\build\windows\debug\anycpu\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-24T02:14:24.699</Modified>
+      <Modified>2015-10-24T16:30:56.358</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
