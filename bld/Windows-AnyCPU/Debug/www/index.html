@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html  ng-app="Comandas" ng-csp>
+<!-- Asignamos la aplicacion, La propiedad ng-csp es para modificar la conducta de angularjs, de esa forma, no injecta javascript en el html. lo cual no se permite en las aplicaciones de windows
+        por politicas de seguridad -->
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <!-- Etiqueta que refuerza las politicas de seguridad de la aplicacion, en general evita que se inyecte javascript malicioso por medio de XSS o CSRF -->
+    <title>ComandasExample</title>
+    <!-- ComandasExample references -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap-theme.css" rel="stylesheet" />
+    <link href="css/bootstrap/ionicons.min.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+            Esta clase de carga de archivos no va a funcionar, si esta la etiqueta meta http-equiv, como la que esta arriba
+            Debido a las politicas de seguridad para el dispositivo, de preferencia siempre dar los archivos locales. -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Lo siguiente, lo conocen bien.  -->
+    <div class="container">
+            <ul class="nav nav-tabs">
+                <li role="presentation"><a href="#/home">Home</a></li>
+                <li role="presentation"><a href="#/segunda">Segunda</a></li>
+            </ul>
+    </div>
+    <div ng-view></div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <!-- Llamar las librerias en el body no en el header. -->
+    <script src="scripts/angular/angular.js"></script>
+    <script src="scripts/angular/angular-route.js"></script>
+    <script src="scripts/angular/angular-animate.js"></script>
+    <script src="scripts/angular/angular-sanitize.js"></script>
+    <script src="scripts/angular/ui-bootstrap-tpls-0.13.4.js"></script>
+    <script src="scripts/appBundle.js"></script>
+</body>
+</html>

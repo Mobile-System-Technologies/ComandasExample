@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN10-MAC-TUNA</Machine>
+    <WindowsUser>DanielTuna</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp2b0406</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>64849D5BE3F47ACAED1E5E4F053D9FC7BBE0134F53B1BEAF0F6A60AB575ADC49</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myapp2b0406_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myapp2b0406_h35559jr9hy9m!io.cordova.myapp2b0406</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myapp2b0406</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:24.873</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:23.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:23.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:23.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:23.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2015-10-24T02:14:21.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:23.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2015-10-24T02:14:21.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:23.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-24T02:14:23.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2015-10-24T02:14:22.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular-animate.js">
+      <PackagePath>www\scripts\angular\angular-animate.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular-route.js">
+      <PackagePath>www\scripts\angular\angular-route.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.175</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular-sanitize.js">
+      <PackagePath>www\scripts\angular\angular-sanitize.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular.js">
+      <PackagePath>www\scripts\angular\angular.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\angular.min.js">
+      <PackagePath>www\scripts\angular\angular.min.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\angular\ui-bootstrap-tpls-0.13.4.js">
+      <PackagePath>www\scripts\angular\ui-bootstrap-tpls-0.13.4.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\appBundle.js">
+      <PackagePath>www\scripts\appBundle.js</PackagePath>
+      <Modified>2015-10-24T02:14:23.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2015-10-24T02:14:22.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2015-10-24T02:14:22.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2015-10-24T02:14:22.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css">
+      <PackagePath>www\css\bootstrap\bootstrap-theme.css</PackagePath>
+      <Modified>2015-10-24T02:14:23.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.min.css">
+      <PackagePath>www\css\bootstrap\bootstrap-theme.min.css</PackagePath>
+      <Modified>2015-10-24T02:14:23.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css">
+      <PackagePath>www\css\bootstrap\bootstrap.css</PackagePath>
+      <Modified>2015-10-24T02:14:23.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.min.css">
+      <PackagePath>www\css\bootstrap\bootstrap.min.css</PackagePath>
+      <Modified>2015-10-24T02:14:23.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\ionicons.min.css">
+      <PackagePath>www\css\bootstrap\ionicons.min.css</PackagePath>
+      <Modified>2015-10-24T02:14:23.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+      <Modified>2015-10-24T02:14:22.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css.map">
+      <PackagePath>www\css\bootstrap\bootstrap-theme.css.map</PackagePath>
+      <Modified>2015-10-24T02:14:22.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css.map">
+      <PackagePath>www\css\bootstrap\bootstrap.css.map</PackagePath>
+      <Modified>2015-10-24T02:14:22.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\appBundle.js.map">
+      <PackagePath>www\scripts\appBundle.js.map</PackagePath>
+      <Modified>2015-10-24T02:14:22.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2015-10-24T02:14:22.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\views\home.html">
+      <PackagePath>www\views\home.html</PackagePath>
+      <Modified>2015-10-24T02:14:23.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\views\segunda.html">
+      <PackagePath>www\views\segunda.html</PackagePath>
+      <Modified>2015-10-24T02:14:23.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\www\scripts\nombre.json">
+      <PackagePath>www\scripts\nombre.json</PackagePath>
+      <Modified>2015-10-24T02:14:23.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2015-10-24T02:14:24.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Source\Workspaces\Metrodo\ComandasExample\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-24T02:14:24.699</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
