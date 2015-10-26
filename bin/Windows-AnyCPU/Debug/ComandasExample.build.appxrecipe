@@ -118,11 +118,14 @@
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\comandas.html">
+      <PackagePath>www\views\comandas.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\home.html">
       <PackagePath>www\views\home.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\segunda.html">
-      <PackagePath>www\views\segunda.html</PackagePath>
+    <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\ordenes.html">
+      <PackagePath>www\views\ordenes.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\nombre.json">
       <PackagePath>www\scripts\nombre.json</PackagePath>

@@ -17,18 +17,46 @@ module ComandasExample {
         */
         var comandas;
         comandas = ComandasExample.modulos.Comandas;
+        var Comanda = modelos.Comanda;
+        var Orden = modelos.Orden
+        var Platillo = modelos.Platillo;
+        var Bebida = modelos.Bebida;
+        var _comanda: modelos.Comanda;
+        var _orden1: modelos.Orden;
+        var _orden2: modelos.Orden;
+        var _platillos1 = [new Platillo("aguachiles", 50.89), new Platillo("Higado EncebollinChile", 40.98)];
+        var _bebidas1 = [new Bebida("Refresco", 15.21), new Bebida("Agua Natural", 16.50)];
+        var _platillos2 = [new Platillo("Camarones Mojo de Ajo", 50.89), new Platillo("Enchiladas", 40.98)];
+        var _bebidas2 = [new Bebida("Refresco", 15.21), new Bebida("Refresco Dieta", 15.60)];
+        var _ordenes = [];
+        var fecha = new Date().toLocaleString();
         // gracias a que exportamos el modulo Comandas, podemos accesar a el.
-        comandas.controller("HomeCtrl", ($scope) => {
-            $scope.nombre = "Rene";
+        comandas.controller("HomeCtrl", function($scope) {
+            
         }); // de esta forma podemos tener un codigo mas limpio y separado.
-        comandas.controller("SegundaCtrl", ($scope, SegundaFactory) => { // En este caso Angular es el encargado de saber quien es SegundaFactory no typescript
-            // la inyeccion de modulos sigue de la misma forma, aqui en este caso SegundaFactory esta en el modulo Factorias
-            SegundaFactory.getNombre().then((response) => {
-                $scope.nombre = response.data.nombre;
-            }, function (error) {
-                alert(error);            
-                });
-            $scope.nombre = "Rene";
+        comandas.controller("ComandasCtrl", function ($scope) {
+            var comForm = document.getElementById('comForm');
+            var cerrarCom = document.getElementById('cerrarCom');
+            _orden1 = new Orden(_platillos1, _bebidas1, $scope.mesa, $scope.mesero, 1999);
+            _orden2 = new Orden(_platillos2, _bebidas2, $scope.mesa, $scope.mesero, 1992);
+            _ordenes.push(_orden1);
+            _ordenes.push(_orden2);
+            var abrirComanda = function () {
+                _comanda = new Comanda($scope.mesero, $scope.area, $scope.mesa, $scope.cantPersonas, fecha, $scope.folio, _ordenes);
+                var cercom = document.getElementById('cerrarCom');
+                angular.element(cercom).css('visibility', 'visible');
+            };
+
+            var cerrarComanda = function () {
+                var comCerrada = _comanda.cerrarComanda();
+                var comandaCerrada = document.getElementById('comandaCerrada');
+                comandaCerrada.innerText = comCerrada;
+            };
+            comForm.addEventListener('submit', abrirComanda, false);
+            cerrarCom.addEventListener('click', cerrarComanda, false);
+        });
+        comandas.controller("OrdenesCtrl", ($scope) => {
+
         });
     }
 }

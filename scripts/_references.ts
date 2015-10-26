@@ -1,11 +1,11 @@
-﻿/// <reference path="typings/angularjs/angular.d.ts" />
+﻿/// <reference path="index.ts" />
+/// <reference path="typings/angularjs/angular.d.ts" />
+/// <reference path="models.ts" />
 /// <reference path="modules.ts" />
 /// <reference path="routes.ts" />
-/// <reference path="main.ts" />
-/// <reference path="index.ts" />
 /// <reference path="controllers.ts" />
-/// <reference path="factories.ts" />
-/// <reference path="models.ts" />
+/// <reference path="main.ts" />
+
 
 
 /*

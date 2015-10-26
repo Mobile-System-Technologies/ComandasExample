@@ -1,0 +1,29 @@
+<div class="container">
+<header class="row">
+    <h1 class="col-md-12">Comandas</h1>
+    <p class="col-md-4">
+        Ejemplo con dos Ordenes
+       Por favor Ingrese los Campos  Correspondientes.
+    </p>
+</header>
+<article class="row">
+    <form id="comForm" class="form-group col-sm-5 col-xs-8">
+        <label class="control-label" for="mesero">Mesero</label>
+        <input type="text" class="form-control" ng-model="mesero" required id="mesero" placeholder="Mesero">
+        <label class="control-label" for="area">Area</label>
+        <input type="text" class="form-control" id="area" required ng-model="area" placeholder="Area">
+        <label class="control-label" for="mesa">Mesa</label>
+        <input type="number" class="form-control" id="mesa" required ng-model="mesa" placeholder="Mesa">
+        <label class="control-label" for="cantPersonas">Cantidad de personas</label>
+        <input type="number" class="form-control" id="cantPersonas" required ng-model="cantPersonas" placeholder="Cantidad de Personas">
+        <label class="control-label" for="folio">Folio</label>
+        <input type="number" class="form-control" id="folio" required ng-model="folio" placeholder="Folio">
+        <button id="abrirCom" type="submit">Abrir Comanda</button>
+    </form>
+    <div class="col-sm-5 col-xs-8">
+        <button id="cerrarCom" style="visibility:hidden;" >Cerrar Comanda</button>
+        <p id="comandaCerrada"></p>
+        
+    </div>
+</article>
+</div>

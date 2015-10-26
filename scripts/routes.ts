@@ -12,9 +12,13 @@
                     controller: "HomeCtrl",
                     templateUrl: "views/home.html"
                 })
-                .when("/segunda", {
-                    controller: "SegundaCtrl",
-                    templateUrl: "views/segunda.html"
+                .when("/comandas", {
+                    controller: "ComandasCtrl",
+                    templateUrl: "views/comandas.html"
+                })
+                .when("/ordenes", {
+                    controller: "OrdenesCtrl",
+                    templateUrl: "views/ordenes.html"
                 })
                 .otherwise({
                     redirectTo: "/home",
