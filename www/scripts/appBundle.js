@@ -363,6 +363,8 @@ var ComandasExample;
         var _comanda;
         var _orden1;
         var _orden2;
+        // inicializamos por el momento lo que se va a usar
+        //en produccion esto no se hara ya que los objetos se iran cnstruyendo conforme se vallan pidiendo.
         var _platillos1 = [new Platillo("aguachiles", 50.89), new Platillo("Higado EncebollinChile", 40.98)];
         var _bebidas1 = [new Bebida("Refresco", 15.21), new Bebida("Agua Natural", 16.50)];
         var _platillos2 = [new Platillo("Camarones Mojo de Ajo", 50.89), new Platillo("Enchiladas", 40.98)];
@@ -373,24 +375,31 @@ var ComandasExample;
         comandas.controller("HomeCtrl", function ($scope) {
         }); // de esta forma podemos tener un codigo mas limpio y separado.
         comandas.controller("ComandasCtrl", function ($scope) {
+            // controlador de la vista de comandas
             var comForm = document.getElementById('comForm');
             var cerrarCom = document.getElementById('cerrarCom');
             _orden1 = new Orden(_platillos1, _bebidas1, $scope.mesa, $scope.mesero, 1999);
             _orden2 = new Orden(_platillos2, _bebidas2, $scope.mesa, $scope.mesero, 1992);
             _ordenes.push(_orden1);
             _ordenes.push(_orden2);
+            //agregamos las ordenes a el arreglo que usaremos en la comanda de ejemplo
             var abrirComanda = function () {
                 _comanda = new Comanda($scope.mesero, $scope.area, $scope.mesa, $scope.cantPersonas, fecha, $scope.folio, _ordenes);
+                //creamos un objeto tipo comanda
                 var cercom = document.getElementById('cerrarCom');
                 angular.element(cercom).css('visibility', 'visible');
-                console.log(_comanda);
+                // una vez creado el objeto damos visibilidad al boton de cerrar la comanda.
             };
             var cerrarComanda = function () {
-                //console.log(_comanda);
+                // mandamos a cerrar la comanda
                 var comCerrada = _comanda.cerrarComanda();
-                //console.log(comCerrada);
+                // cerrar comanda nos regresa un string
                 var comandaCerrada = document.getElementById('comandaCerrada');
-                comandaCerrada.innerText = comCerrada;
+                comandaCerrada.innerText = comCerrada; // mostramos el contenido de la comanda listo para el cobro en caja
+                // en produccion en lugar de solo generar un string, se va a mandar a imprimir ese string.
+                _comanda = null; // liberamos la comanda para cuando se quiera crear una nueva
+                var cercom = document.getElementById('cerrarCom');
+                angular.element(cercom).css('visibility', 'hidden'); //escondemos el boton de cerrar comanda.
             };
             comForm.addEventListener('submit', abrirComanda, false);
             cerrarCom.addEventListener('click', cerrarComanda, false);

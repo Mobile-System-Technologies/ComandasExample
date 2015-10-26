@@ -1,4 +1,43 @@
-﻿var __extends = (this && this.__extends) || function (d, b) {
+﻿/// <reference path="_references.ts" />
+// For an introduction to the Blank template, see the following documentation:
+// http://go.microsoft.com/fwlink/?LinkID=397705
+// To debug code on page load in Ripple or on Android devices/emulators: launch your app, set breakpoints, 
+// and then run "window.location.reload()" in the JavaScript Console.
+var ComandasExample;
+(function (ComandasExample) {
+    "use strict";
+    /* Este es el archivo de entrada principal de la aplicacion cuando se abre en el dispositivo.
+        Aqui se inicializa la aplicacion como tal y se registran los eventos que manejan cuando el dispositivo
+        esta listo (cuando la aplicacion ya puede ser cargada), cuando se pausa y cuando se resume.
+        Este archivo mas que nada es para inicializar plugins que tienen que ver con el hardware del dispositivo.
+        digase plugin de la camara, plugin de almacenamiento local, microfono, vibrador etc.
+        Lo que es de el framework o libreria de javascript utilizada, se puede manejar en otro script aparte, no tien que ser aqui.
+        en lo posible este archivo debe tener la menor cantidad de lineas de codigo posible.
+    */
+    var Application;
+    (function (Application) {
+        function initialize() {
+            document.addEventListener('deviceready', onDeviceReady, false);
+        }
+        Application.initialize = initialize;
+        function onDeviceReady() {
+            // Handle the Cordova pause and resume events
+            document.addEventListener('pause', onPause, false);
+            document.addEventListener('resume', onResume, false);
+            // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
+        }
+        function onPause() {
+            // TODO: This application has been suspended. Save application state here.
+        }
+        function onResume() {
+            // TODO: This application has been reactivated. Restore application state here.
+        }
+    })(Application = ComandasExample.Application || (ComandasExample.Application = {}));
+    window.onload = function () {
+        Application.initialize();
+    };
+})(ComandasExample || (ComandasExample = {}));
+var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
@@ -68,27 +107,27 @@ var ComandasExample;
                 });
             };
             Comanda.prototype.cerrarComanda = function () {
-                var b;
-                var p;
-                var total;
-                var totalB;
-                var totalP;
+                var listaBebidas = "";
+                var listaPlatillos = "";
+                var totalPlatillos = 0;
+                var totalBebidas = 0;
+                var totalFinal = 0;
                 this._ordenes.forEach(function (orden) {
                     orden.bebidas.forEach(function (bebida) {
-                        b += bebida.nombre + "\t " + bebida.precio + "\n";
-                        totalB += bebida.precio;
+                        listaBebidas += bebida.nombre + "\t\t" + bebida.precio + "\n";
+                        totalBebidas += bebida.precio;
                     });
                     orden.platillos.forEach(function (platillo) {
-                        p += platillo.nombre + "\t " + platillo.precio + "\n";
-                        totalP += platillo.precio;
+                        listaPlatillos += platillo.nombre + "\t\t" + platillo.precio + "\n";
+                        totalPlatillos += platillo.precio;
                     });
                 });
-                total = totalB + totalP;
+                totalFinal = totalBebidas + totalPlatillos;
                 var s;
                 s = ("Folio No: " + this._folio + "\nMesero: " + this.mesero + "\nMesa: " + this.mesa + "\n") +
                     ("Fecha: " + this.fechaHora + "\n Cantidad de Personas: " + this.cantPersonas + "\n") +
-                    ("Pedido:\n\n\tBebidas: " + b + "\n Total de las Bebidas:\t" + totalB + "\n\n\t") +
-                    ("Platillos:  " + p + "\n Total de los Platillos:\t" + totalP + "\n\nTotal: " + total);
+                    ("Pedido:\n\n\tBebidas: " + listaBebidas + "\n Total de las Bebidas:\t" + totalBebidas.toFixed(2) + "\n\n\t") +
+                    ("Platillos:  " + listaPlatillos + "\n Total de los Platillos:\t" + totalPlatillos.toFixed(2) + "\n\nTotal: " + totalFinal.toFixed(2));
                 return s;
             };
             return Comanda;
@@ -154,8 +193,8 @@ var ComandasExample;
                 }
             };
             Orden.prototype.cerrarOrden = function () {
-                var b;
-                var p;
+                var b = "";
+                var p = "";
                 this._bebidas.forEach(function (bebida) {
                     b += bebida.nombre + "\n";
                 });
@@ -164,7 +203,7 @@ var ComandasExample;
                 });
                 var s;
                 s = ("Orden No: " + this.noOrden + "\nMesero: " + this.mesero + "\nMesa: " + this.mesa + "\n") +
-                    ("Pedido: " + b + p);
+                    ("Pedido:\n" + b + p);
                 return s;
             };
             return Orden;
@@ -187,12 +226,8 @@ var ComandasExample;
             });
             Object.defineProperty(Producto.prototype, "precio", {
                 get: function () {
-                    return this.precio;
+                    return this._precio;
                 },
-                enumerable: true,
-                configurable: true
-            });
-            Object.defineProperty(Producto.prototype, "pracio", {
                 set: function (precio) {
                     this._precio = precio;
                 },
@@ -218,12 +253,8 @@ var ComandasExample;
             });
             Object.defineProperty(Platillo.prototype, "precio", {
                 get: function () {
-                    return this.precio;
+                    return this._precio;
                 },
-                enumerable: true,
-                configurable: true
-            });
-            Object.defineProperty(Platillo.prototype, "pracio", {
                 set: function (precio) {
                     this._precio = precio;
                 },
@@ -250,12 +281,8 @@ var ComandasExample;
             });
             Object.defineProperty(Bebida.prototype, "precio", {
                 get: function () {
-                    return this.precio;
+                    return this._precio;
                 },
-                enumerable: true,
-                configurable: true
-            });
-            Object.defineProperty(Bebida.prototype, "pracio", {
                 set: function (precio) {
                     this._precio = precio;
                 },
@@ -311,53 +338,6 @@ var ComandasExample;
 /// <reference path="_references.ts" />
 var ComandasExample;
 (function (ComandasExample) {
-    'use strict';
-    // Archivo principal para nuestra aplicacion (y no el dispositivo).
-    // si queremos inicializar cosas de angular, winjs, backbone, etc. se puede realizar aqui.
-    ComandasExample.comandas = ComandasExample.modulos.Comandas.config(ComandasExample.rutas.routesConfig);
-})(ComandasExample || (ComandasExample = {}));
-/// <reference path="_references.ts" />
-// For an introduction to the Blank template, see the following documentation:
-// http://go.microsoft.com/fwlink/?LinkID=397705
-// To debug code on page load in Ripple or on Android devices/emulators: launch your app, set breakpoints, 
-// and then run "window.location.reload()" in the JavaScript Console.
-var ComandasExample;
-(function (ComandasExample) {
-    "use strict";
-    /* Este es el archivo de entrada principal de la aplicacion cuando se abre en el dispositivo.
-        Aqui se inicializa la aplicacion como tal y se registran los eventos que manejan cuando el dispositivo
-        esta listo (cuando la aplicacion ya puede ser cargada), cuando se pausa y cuando se resume.
-        Este archivo mas que nada es para inicializar plugins que tienen que ver con el hardware del dispositivo.
-        digase plugin de la camara, plugin de almacenamiento local, microfono, vibrador etc.
-        Lo que es de el framework o libreria de javascript utilizada, se puede manejar en otro script aparte, no tien que ser aqui.
-        en lo posible este archivo debe tener la menor cantidad de lineas de codigo posible.
-    */
-    var Application;
-    (function (Application) {
-        function initialize() {
-            document.addEventListener('deviceready', onDeviceReady, false);
-        }
-        Application.initialize = initialize;
-        function onDeviceReady() {
-            // Handle the Cordova pause and resume events
-            document.addEventListener('pause', onPause, false);
-            document.addEventListener('resume', onResume, false);
-            // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
-        }
-        function onPause() {
-            // TODO: This application has been suspended. Save application state here.
-        }
-        function onResume() {
-            // TODO: This application has been reactivated. Restore application state here.
-        }
-    })(Application = ComandasExample.Application || (ComandasExample.Application = {}));
-    window.onload = function () {
-        Application.initialize();
-    };
-})(ComandasExample || (ComandasExample = {}));
-/// <reference path="_references.ts" />
-var ComandasExample;
-(function (ComandasExample) {
     'use strict'; // use strict es una herramienta para escribir mejor javascript, arroja erroes en runtime cuando el javascript
     // tiene variables sin declarar (ej. var variable1; vs variable1; la segunda no esta delcarada y arroja error cuando use strict esta habilitado).
     /* Recuerden que El modulo principal es donde estaran todos nuestos modulos internos.
@@ -380,36 +360,46 @@ var ComandasExample;
         var Orden = ComandasExample.modelos.Orden;
         var Platillo = ComandasExample.modelos.Platillo;
         var Bebida = ComandasExample.modelos.Bebida;
+        var _comanda;
+        var _orden1;
+        var _orden2;
+        // inicializamos por el momento lo que se va a usar
+        //en produccion esto no se hara ya que los objetos se iran cnstruyendo conforme se vallan pidiendo.
+        var _platillos1 = [new Platillo("aguachiles", 50.89), new Platillo("Higado EncebollinChile", 40.98)];
+        var _bebidas1 = [new Bebida("Refresco", 15.21), new Bebida("Agua Natural", 16.50)];
+        var _platillos2 = [new Platillo("Camarones Mojo de Ajo", 50.89), new Platillo("Enchiladas", 40.98)];
+        var _bebidas2 = [new Bebida("Refresco", 15.21), new Bebida("Refresco Dieta", 15.60)];
+        var _ordenes = [];
+        var fecha = new Date().toLocaleString();
         // gracias a que exportamos el modulo Comandas, podemos accesar a el.
         comandas.controller("HomeCtrl", function ($scope) {
         }); // de esta forma podemos tener un codigo mas limpio y separado.
         comandas.controller("ComandasCtrl", function ($scope) {
-            var _comanda;
-            var _orden1;
-            var _orden2;
-            var _platillos1 = [new Platillo("aguachiles", 50.89), new Platillo("Higado EncebollinChile", 40.98)];
-            var _bebidas1 = [new Bebida("Refresco", 15.21), new Bebida("Agua Natural", 16.50)];
-            var _platillos2 = [new Platillo("aguachiles", 50.89), new Platillo("Higado EncebollinChile", 40.98)];
-            var _bebidas2 = [new Bebida("Refresco", 15.21), new Bebida("Agua Natural", 16.50)];
-            var _ordenes = [];
+            // controlador de la vista de comandas
             var comForm = document.getElementById('comForm');
             var cerrarCom = document.getElementById('cerrarCom');
+            _orden1 = new Orden(_platillos1, _bebidas1, $scope.mesa, $scope.mesero, 1999);
+            _orden2 = new Orden(_platillos2, _bebidas2, $scope.mesa, $scope.mesero, 1992);
+            _ordenes.push(_orden1);
+            _ordenes.push(_orden2);
+            //agregamos las ordenes a el arreglo que usaremos en la comanda de ejemplo
             var abrirComanda = function () {
-                _orden1 = new Orden(_platillos1, _bebidas1, $scope.mesa, $scope.mesero, 1999);
-                _orden2 = new Orden(_platillos2, _bebidas2, $scope.mesa, $scope.mesero, 1992);
-                _ordenes.push(_orden1);
-                _ordenes.push(_orden2);
-                _comanda = new Comanda($scope.mesero, $scope.area, $scope.mesa, $scope.cantPersonas, new Date().toLocaleString(), $scope.folio, _ordenes);
+                _comanda = new Comanda($scope.mesero, $scope.area, $scope.mesa, $scope.cantPersonas, fecha, $scope.folio, _ordenes);
+                //creamos un objeto tipo comanda
                 var cercom = document.getElementById('cerrarCom');
                 angular.element(cercom).css('visibility', 'visible');
-                console.log(_comanda);
+                // una vez creado el objeto damos visibilidad al boton de cerrar la comanda.
             };
             var cerrarComanda = function () {
-                console.log(_comanda);
+                // mandamos a cerrar la comanda
                 var comCerrada = _comanda.cerrarComanda();
-                console.log(comCerrada);
+                // cerrar comanda nos regresa un string
                 var comandaCerrada = document.getElementById('comandaCerrada');
-                comandaCerrada.innerText = comCerrada;
+                comandaCerrada.innerText = comCerrada; // mostramos el contenido de la comanda listo para el cobro en caja
+                // en produccion en lugar de solo generar un string, se va a mandar a imprimir ese string.
+                _comanda = null; // liberamos la comanda para cuando se quiera crear una nueva
+                var cercom = document.getElementById('cerrarCom');
+                angular.element(cercom).css('visibility', 'hidden'); //escondemos el boton de cerrar comanda.
             };
             comForm.addEventListener('submit', abrirComanda, false);
             cerrarCom.addEventListener('click', cerrarComanda, false);
@@ -422,19 +412,26 @@ var ComandasExample;
 var ComandasExample;
 (function (ComandasExample) {
     'use strict';
+    // Archivo principal para nuestra aplicacion (y no el dispositivo).
+    // si queremos inicializar cosas de angular, winjs, backbone, etc. se puede realizar aqui.
+    ComandasExample.comandas = ComandasExample.modulos.Comandas.config(ComandasExample.rutas.routesConfig);
 })(ComandasExample || (ComandasExample = {}));
-/// <reference path="models.ts" />
+/// <reference path="index.ts" />
 /// <reference path="typings/angularjs/angular.d.ts" />
+/// <reference path="models.ts" />
 /// <reference path="modules.ts" />
 /// <reference path="routes.ts" />
-/// <reference path="main.ts" />
-/// <reference path="index.ts" />
 /// <reference path="controllers.ts" />
-/// <reference path="factories.ts" />
+/// <reference path="main.ts" />
 /*
    El archivo _references.ts es una especie de recopilacion de archivos para que el compilador sepa una serie de cosas.
     1.- Que sepa el orden de importacion.
     2.- Permitir que el Intellisense nos ayude con el autocompletado junto con el debugger.
     3.- Referenciar Librerias o archivos .d.ts
 */ 
+/// <reference path="_references.ts" />
+var ComandasExample;
+(function (ComandasExample) {
+    'use strict';
+})(ComandasExample || (ComandasExample = {}));
 //# sourceMappingURL=appBundle.js.map

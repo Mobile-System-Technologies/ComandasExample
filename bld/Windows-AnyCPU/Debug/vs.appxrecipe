@@ -22,29 +22,29 @@
     <AppXManifest Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:49:00.367</Modified>
+      <Modified>2015-10-26T05:04:15.866</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\SplashScreen.scale-100.png">
       <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:48:58.944</Modified>
+      <Modified>2015-10-26T05:04:14.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square150x150Logo.scale-100.png">
       <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:48:58.929</Modified>
+      <Modified>2015-10-26T05:04:14.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square30x30Logo.scale-100.png">
       <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:48:58.932</Modified>
+      <Modified>2015-10-26T05:04:14.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square310x310Logo.scale-100.png">
       <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:48:58.933</Modified>
+      <Modified>2015-10-26T05:04:14.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square44x44Logo.scale-100.png">
       <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
@@ -53,7 +53,7 @@
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square70x70Logo.scale-100.png">
       <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:48:58.936</Modified>
+      <Modified>2015-10-26T05:04:14.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Square71x71Logo.scale-100.png">
       <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
@@ -62,124 +62,124 @@
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\StoreLogo.scale-100.png">
       <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:48:58.939</Modified>
+      <Modified>2015-10-26T05:04:14.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\images\Wide310x150Logo.scale-100.png">
       <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-25T17:48:58.942</Modified>
+      <Modified>2015-10-26T05:04:14.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\cordova.js">
       <PackagePath>www\cordova.js</PackagePath>
-      <Modified>2015-10-25T17:48:58.747</Modified>
+      <Modified>2015-10-26T05:04:13.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
-      <Modified>2015-10-25T17:48:58.971</Modified>
+      <Modified>2015-10-26T05:04:14.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular-animate.js">
       <PackagePath>www\scripts\angular\angular-animate.js</PackagePath>
-      <Modified>2015-10-25T17:48:59.004</Modified>
+      <Modified>2015-10-26T05:04:14.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular-route.js">
       <PackagePath>www\scripts\angular\angular-route.js</PackagePath>
-      <Modified>2015-10-25T17:48:59.011</Modified>
+      <Modified>2015-10-26T05:04:14.197</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular-sanitize.js">
       <PackagePath>www\scripts\angular\angular-sanitize.js</PackagePath>
-      <Modified>2015-10-25T17:48:59.019</Modified>
+      <Modified>2015-10-26T05:04:14.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular.js">
       <PackagePath>www\scripts\angular\angular.js</PackagePath>
-      <Modified>2015-10-25T17:48:59.068</Modified>
+      <Modified>2015-10-26T05:04:14.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\angular.min.js">
       <PackagePath>www\scripts\angular\angular.min.js</PackagePath>
-      <Modified>2015-10-25T17:48:59.100</Modified>
+      <Modified>2015-10-26T05:04:14.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\angular\ui-bootstrap-tpls-0.13.4.js">
       <PackagePath>www\scripts\angular\ui-bootstrap-tpls-0.13.4.js</PackagePath>
-      <Modified>2015-10-25T17:48:59.121</Modified>
+      <Modified>2015-10-26T05:04:14.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\appBundle.js">
       <PackagePath>www\scripts\appBundle.js</PackagePath>
-      <Modified>2015-10-25T17:48:59.126</Modified>
+      <Modified>2015-10-26T05:04:14.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\platformOverrides.js">
       <PackagePath>www\scripts\platformOverrides.js</PackagePath>
-      <Modified>2015-10-25T17:48:58.733</Modified>
+      <Modified>2015-10-26T05:04:13.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\winstore-jscompat.js">
       <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
-      <Modified>2015-10-25T17:48:58.734</Modified>
+      <Modified>2015-10-26T05:04:13.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
-      <Modified>2015-10-25T17:48:58.800</Modified>
+      <Modified>2015-10-26T05:04:13.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css">
       <PackagePath>www\css\bootstrap\bootstrap-theme.css</PackagePath>
-      <Modified>2015-10-25T17:48:58.975</Modified>
+      <Modified>2015-10-26T05:04:14.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.min.css">
       <PackagePath>www\css\bootstrap\bootstrap-theme.min.css</PackagePath>
-      <Modified>2015-10-25T17:48:58.978</Modified>
+      <Modified>2015-10-26T05:04:14.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css">
       <PackagePath>www\css\bootstrap\bootstrap.css</PackagePath>
-      <Modified>2015-10-25T17:48:58.983</Modified>
+      <Modified>2015-10-26T05:04:14.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.min.css">
       <PackagePath>www\css\bootstrap\bootstrap.min.css</PackagePath>
-      <Modified>2015-10-25T17:48:58.987</Modified>
+      <Modified>2015-10-26T05:04:14.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\ionicons.min.css">
       <PackagePath>www\css\bootstrap\ionicons.min.css</PackagePath>
-      <Modified>2015-10-25T17:48:58.992</Modified>
+      <Modified>2015-10-26T05:04:14.177</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\index.css">
       <PackagePath>www\css\index.css</PackagePath>
-      <Modified>2015-10-25T17:48:58.598</Modified>
+      <Modified>2015-10-26T05:04:13.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap-theme.css.map">
       <PackagePath>www\css\bootstrap\bootstrap-theme.css.map</PackagePath>
-      <Modified>2015-10-25T17:48:58.577</Modified>
+      <Modified>2015-10-26T05:04:13.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\css\bootstrap\bootstrap.css.map">
       <PackagePath>www\css\bootstrap\bootstrap.css.map</PackagePath>
-      <Modified>2015-10-25T17:48:58.589</Modified>
+      <Modified>2015-10-26T05:04:13.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\appBundle.js.map">
       <PackagePath>www\scripts\appBundle.js.map</PackagePath>
-      <Modified>2015-10-25T17:48:58.724</Modified>
+      <Modified>2015-10-26T05:04:13.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
-      <Modified>2015-10-25T17:48:58.600</Modified>
+      <Modified>2015-10-26T05:04:13.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\comandas.html">
       <PackagePath>www\views\comandas.html</PackagePath>
-      <Modified>2015-10-25T17:48:59.128</Modified>
+      <Modified>2015-10-26T05:04:14.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\home.html">
       <PackagePath>www\views\home.html</PackagePath>
-      <Modified>2015-10-25T17:48:59.129</Modified>
+      <Modified>2015-10-26T05:04:14.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\views\ordenes.html">
       <PackagePath>www\views\ordenes.html</PackagePath>
-      <Modified>2015-10-25T17:48:58.731</Modified>
+      <Modified>2015-10-26T05:04:13.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\www\scripts\nombre.json">
       <PackagePath>www\scripts\nombre.json</PackagePath>
-      <Modified>2015-10-25T17:48:59.127</Modified>
+      <Modified>2015-10-26T05:04:14.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>
-      <Modified>2015-10-25T17:49:00.075</Modified>
+      <Modified>2015-10-26T05:04:15.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DanielTuna\Documents\GitHubVisualStudio\ComandasExample\platforms\windows\build\windows\debug\anycpu\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-25T17:49:00.245</Modified>
+      <Modified>2015-10-26T05:04:15.734</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
